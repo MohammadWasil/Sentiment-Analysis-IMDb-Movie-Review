@@ -42,8 +42,20 @@ Download All Packages.
 Two files - 1) labeledTrainData 2) testData.
 These datasets have been downloaded from Kaggle Competition - Bags of Words Meets Bags Of Popcorn.
 
-LabeledTrainData has 25000 rows containing 3 columns - id, Sentiment, review.
+LabeledTrainData has 25000 rows containing 3 columns - id, Sentiment, review.<br/>
 TestData has 25000 rows containing only 2 columns - id, and reviews. We have to predict the sentiments of these reviews.
+
+## Sentiment Analysis
+
+Sentiment Analysis of IMBD Movie datasets is done using two different machine learning algorithm:
+1) Random forest
+2) Recurrent Neural Network.
+
+First, we trained the model using Random Forest. It has a training accuracy of   , and score on kaggle comes out to be 0.84176.
+
+We also trained the model on LSTM and GRU Recurrent Neural Network, using different preprocessing techniques, like Porter stemming, Stop words etc. It gives training accuracy in range of 91.57 to 92.76, and score on Kaggle comes in the range of 0.86768 to 0.87896.
+
+## How to work with the code
 
 
 
