@@ -24,7 +24,7 @@ def reviewWords(review):
     return( " ".join( meaningful_words ))   
 
 # Reading the Data
-data_train = pd.read_csv('Bag of Words Meets Bags of Popcorn-Kaggle/labeledTrainData.tsv',delimiter = "\t")
+data_train = pd.read_csv('.../labeledTrainData.tsv',delimiter = "\t")
 
 # Data Cleaing And Text Prepocessing.
 
@@ -60,7 +60,7 @@ print("Mean Accuracy of the Random forest is: %f" %(score))
 
 # Predicting the model.
 
-data_test = pd.read_csv('Bag of Words Meets Bags of Popcorn-Kaggle/testData.tsv', delimiter = "\t")
+data_test = pd.read_csv('.../testData.tsv', delimiter = "\t")
 
 # Let's process all the test reviews together.
 testcleanWords = []
@@ -81,4 +81,4 @@ result = forest.predict(data_test_features)
 output = pd.DataFrame(data = {"id": data_test["id"], "sentiment": result} )
 
 output.to_csv("predictedResult.csv", index = False, quoting = 3 )
-# Score on kaggle comes out to be 0.84176(Without emoticons)
+# Score on kaggle comes out to be 0.84176
