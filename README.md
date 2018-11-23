@@ -59,15 +59,15 @@ We also trained the model on LSTM and GRU Recurrent Neural Network, using differ
 
 1) Sentiment Analyses Using Bags of Words - Random Forest
 
-  i) Change the directory, in read_csv(), to location of your labeledTrainData.tsv.
+  i) Change the directory, in read_csv(), to location of your labeledTrainData.tsv.<br/>
   ii) Change the directory, in read_csv(), to location of your testData.tsv.
   iii) Run the file.
   
 2) Sentiment Analyses Using Recurrent Neural Network.
   
-  i) Change the directory of data_train and data_test to the location of respective dataset.
-  ii) Run the file.
-  iii) First, it will ask for the input for methods of preprocessing the data - which are - Porter Stemming, Stop Wrods, or Neither of them.
+  i) Change the directory of data_train and data_test to the location of respective dataset.<br/>
+  ii) Run the file.<br/>
+  iii) First, it will ask for the input for methods of preprocessing the data - which are - Porter Stemming, Stop Wrods, or Neither of them.<br/>
   
 
 
