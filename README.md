@@ -1,5 +1,8 @@
 # IMBD-Movie-Review
 
+![image](https://user-images.githubusercontent.com/31696557/48961509-28e70c00-ef9b-11e8-85f3-86a584d823de.png)
+
+
 IMBD - IMDb (Internet Movie Database) is an online database of information related to films, television programs, home videos and video games, and internet streams, including cast, production crew and personnel biographies, plot summaries, trivia, and fan reviews and ratings.
 
 
@@ -57,18 +60,23 @@ We also trained the model on LSTM and GRU Recurrent Neural Network, using differ
 
 ## How to work with the code
 
-1) Sentiment Analyses Using Bags of Words - Random Forest
+### Sentiment Analyses Using Bags of Words - Random Forest
 
-  i) Change the directory, in read_csv(), to location of your labeledTrainData.tsv.<br/>
-  ii) Change the directory, in read_csv(), to location of your testData.tsv.
-  iii) Run the file.
+  1) Change the directory, in read_csv(), to location of your labeledTrainData.tsv.<br/>
+  2) Change the directory, in read_csv(), to location of your testData.tsv.
+  3) Run the file.
   
-2) Sentiment Analyses Using Recurrent Neural Network.
+### Sentiment Analyses Using RNN - Recurrent Neural Network.
   
-  i) Change the directory of data_train and data_test to the location of respective dataset.<br/>
-  ii) Run the file.<br/>
-  iii) First, it will ask for the input for methods of preprocessing the data - which are - Porter Stemming, Stop Wrods, or Neither of them.<br/>
+  1) Change the directory of data_train and data_test of ''Sentiment Analysis using RNN' to the location of respective dataset.<br/>
+  2) Run the file.<br/>
+  3) First, it will ask for the input for methods of preprocessing the data - which are - Porter Stemming, Stop Wrods, or Neither of them. Accordingly, it will process the data.<br/>
+  4) Then, it will ask for the input for model - LSTM RNN or GRU RNN.
+  5) Compile the model, and it will create a csv file for the predicted sentiment of test data.
   
-
+  6) Now, to predict your own review, run 'Predict Class For IMBD Movie Review.py'.
+  7) It will ask for which model to use, which methods of preprocessing to use, and then it will predict the sentiment of the review.
+  
+ To know more about Recurrent Neural Network, check [this](https://www.coursera.org/learn/nlp-sequence-models) course.
 
 
