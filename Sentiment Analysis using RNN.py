@@ -61,8 +61,8 @@ def training_Validation_Data(cleanWords, data_train):
     return x_train, y_train, x_val, y_val
 
 # Reading the Data
-data_train = pd.read_csv("D:\ML\ML\Machine Learning\Kaggle\Sentiment Analysis on Movie Reviews\Bag of Words Meets Bags of Popcorn-Kaggle/labeledTrainData.tsv", delimiter = "\t")
-data_test = pd.read_csv("D:\ML\ML\Machine Learning\Kaggle\Sentiment Analysis on Movie Reviews\Bag of Words Meets Bags of Popcorn-Kaggle/testData.tsv", delimiter = "\t")
+data_train = pd.read_csv(".../labeledTrainData.tsv", delimiter = "\t")
+data_test = pd.read_csv(".../testData.tsv", delimiter = "\t")
 
 # Input the value, whether you want to include porter stemming, stopwords.
 print("Input 'Porter Stemming' for porter stemming, 'Stop Words' for stop words, or anywords for Neither of them: ")
