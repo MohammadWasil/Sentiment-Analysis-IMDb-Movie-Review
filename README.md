@@ -78,6 +78,6 @@ We also trained the model on LSTM and GRU Recurrent Neural Network, using differ
   6) Now, to predict your own review, run 'Predict Class For IMBD Movie Review.py'.
   7) It will ask for which model to use, which methods of preprocessing to use, and then it will predict the sentiment of the review.
   
- To know more about Recurrent Neural Network, check [this](https://www.coursera.org/learn/nlp-sequence-models) course.
+To know more about Recurrent Neural Network, check [this](https://www.coursera.org/learn/nlp-sequence-models) course.
 
-
+Read more about Sentiment Analysis usind Deep Learning methods in thi [link](https://arxiv.org/abs/1801.07883)
