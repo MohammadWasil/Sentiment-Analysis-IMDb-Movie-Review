@@ -2,6 +2,7 @@
 
 ![image](https://user-images.githubusercontent.com/31696557/48961509-28e70c00-ef9b-11e8-85f3-86a584d823de.png)
 
+Sentiment Analysis on IMBD Movie Reviews.
 
 IMBD - IMDb (Internet Movie Database) is an online database of information related to films, television programs, home videos and video games, and internet streams, including cast, production crew and personnel biographies, plot summaries, trivia, and fan reviews and ratings.
 
@@ -60,13 +61,13 @@ We also trained the model on LSTM and GRU Recurrent Neural Network, using differ
 
 ## How to work with the code
 
-### Sentiment Analyses Using Bags of Words - Random Forest
+### Sentiment Analysis Using Bags of Words - Random Forest
 
   1) Change the directory, in read_csv(), to location of your labeledTrainData.tsv.<br/>
   2) Change the directory, in read_csv(), to location of your testData.tsv.
   3) Run the file.
   
-### Sentiment Analyses Using RNN - Recurrent Neural Network.
+### Sentiment Analysis Using RNN - Recurrent Neural Network.
   
   1) Change the directory of data_train and data_test of ''Sentiment Analysis using RNN' to the location of respective dataset.<br/>
   2) Run the file.<br/>
