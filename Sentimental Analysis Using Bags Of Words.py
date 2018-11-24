@@ -74,7 +74,7 @@ data_test_features = vectorizer.transform(testcleanWords)
 #data_train_features = data_train_features.toarray()         # 25000x5000 sparse matrix, with 2105457 stored elements in compressed Sparse Row format.
 print("Test Features Created!!!\n")
 
-# Making Predictions
+# Making Predictions.
 result = forest.predict(data_test_features)
 
 # Copy the predicted values to pandas dataframe with an id column, and a sentiment column.
