@@ -80,4 +80,4 @@ We also trained the model on LSTM and GRU Recurrent Neural Network, using differ
   
 To know more about Recurrent Neural Network, check [this](https://www.coursera.org/learn/nlp-sequence-models) course.
 
-Read more about Sentiment Analysis usind Deep Learning methods in thi [link](https://arxiv.org/abs/1801.07883)
+Read more about Sentiment Analysis usind Deep Learning methods in this [link](https://arxiv.org/abs/1801.07883)
