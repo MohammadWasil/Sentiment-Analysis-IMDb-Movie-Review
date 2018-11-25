@@ -42,7 +42,7 @@ Download All Packages.
 
 ## Dataset
 
-There are Two datasets - 1) labeledTrainData 2) testData.
+There are Two datasets - 1) labeledTrainData 2) testData.<br/>
 These datasets have been downloaded from Kaggle Competition - Bags of Words Meets Bags Of Popcorn.
 
 LabeledTrainData has 25000 rows containing 3 columns - id, Sentiment, review.<br/>
@@ -81,7 +81,7 @@ The highest score on Kaggle comes out to be 0.87896 using Recurrent Neural Netwo
     
 ## Output
 
-It will create a CSV file of predicted data for Kaggle submission, containing two columns: id, and sentiment.
+It will create a CSV file of predicted data for Kaggle submission, containing two columns: id, and sentiment.<br/>
 id will be the column "id" from testdata, and sentiment will be the predicted value from the model.
   
 To know more about Recurrent Neural Network, check [this](https://www.coursera.org/learn/nlp-sequence-models) course.
