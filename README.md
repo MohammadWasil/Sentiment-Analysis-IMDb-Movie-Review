@@ -6,7 +6,7 @@ Sentiment Analysis on IMDb Movie Reviews.
 
 IMDb - IMDb (Internet Movie Database) is an online database of information related to films, television programs, home videos and video games, and internet streams, including cast, production crew and personnel biographies, plot summaries, trivia, and fan reviews and ratings.
 
-This is a Kaggle Competition: [Bag of Words Meets Bags of Popcorn.](https://www.kaggle.com/c/word2vec-nlp-tutorial#part-1-for-beginners-bag-of-words)
+This is a Kaggle Competition: [Bag of Words Meets Bags of Popcorn.](https://www.kaggle.com/c/word2vec-nlp-tutorial)
 
 ## Dependencies
 
