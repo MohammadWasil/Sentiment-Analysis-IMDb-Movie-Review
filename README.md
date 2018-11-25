@@ -1,10 +1,10 @@
-# IMBD-Movie-Review
+# IMDb-Movie-Review
 
 ![image](https://user-images.githubusercontent.com/31696557/48961509-28e70c00-ef9b-11e8-85f3-86a584d823de.png)
 
-Sentiment Analysis on IMBD Movie Reviews.
+Sentiment Analysis on IMDb Movie Reviews.
 
-IMBD - IMDb (Internet Movie Database) is an online database of information related to films, television programs, home videos and video games, and internet streams, including cast, production crew and personnel biographies, plot summaries, trivia, and fan reviews and ratings.
+IMDb - IMDb (Internet Movie Database) is an online database of information related to films, television programs, home videos and video games, and internet streams, including cast, production crew and personnel biographies, plot summaries, trivia, and fan reviews and ratings.
 
 
 
@@ -51,7 +51,7 @@ TestData has 25000 rows containing only 2 columns - id, and reviews. We have to 
 
 ## Sentiment Analysis
 
-Sentiment Analysis of IMBD Movie datasets is done using two different machine learning algorithm:
+Sentiment Analysis of IMDb Movie datasets is done using two different machine learning algorithm:
 1) Random forest
 2) Recurrent Neural Network.
 
@@ -75,7 +75,7 @@ We also trained the model on LSTM and GRU Recurrent Neural Network, using differ
   4) Then, it will ask for the input for model - LSTM RNN or GRU RNN.
   5) Compile the model, and it will create a csv file for the predicted sentiment of test data.
   
-  6) Now, to predict your own review, run 'Predict Class For IMBD Movie Review.py'.
+  6) Now, to predict your own review, run 'Predict Class For IMDb Movie Review.py'.
   7) It will ask for which model to use, which methods of preprocessing to use, and then it will predict the sentiment of the review.
   
 To know more about Recurrent Neural Network, check [this](https://www.coursera.org/learn/nlp-sequence-models) course.
