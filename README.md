@@ -6,8 +6,7 @@ Sentiment Analysis on IMDb Movie Reviews.
 
 IMDb - IMDb (Internet Movie Database) is an online database of information related to films, television programs, home videos and video games, and internet streams, including cast, production crew and personnel biographies, plot summaries, trivia, and fan reviews and ratings.
 
-
-
+This is a Kaggle Competition: [Bag of Words Meets Bags of Popcorn.](https://www.kaggle.com/c/word2vec-nlp-tutorial#part-1-for-beginners-bag-of-words)
 
 ## Dependencies
 
@@ -43,7 +42,7 @@ Download All Packages.
 
 ## Dataset
 
-Two files - 1) labeledTrainData 2) testData.
+There are Two datasets - 1) labeledTrainData 2) testData.
 These datasets have been downloaded from Kaggle Competition - Bags of Words Meets Bags Of Popcorn.
 
 LabeledTrainData has 25000 rows containing 3 columns - id, Sentiment, review.<br/>
@@ -55,9 +54,11 @@ Sentiment Analysis of IMDb Movie datasets is done using two different machine le
 1) Random forest
 2) Recurrent Neural Network.
 
-First, we trained the model using Random Forest. It has a training accuracy of   , and score on kaggle comes out to be 0.84176.
+First, we trained the model using Random Forest. The score on kaggle comes out to be 0.84176.
 
-We also trained the model on LSTM and GRU Recurrent Neural Network, using different preprocessing techniques, like Porter stemming, Stop words etc. It gives training accuracy in range of 91.57 to 92.76, and score on Kaggle comes in the range of 0.86768 to 0.87896.
+We also trained the model on LSTM and GRU Recurrent Neural Network, using different preprocessing techniques, like Porter stemming, Stop words etc. It gives training accuracy in range of 91.57 to 92.76, and score on Kaggle comes out in the range of 0.86768 to 0.87896.
+
+The highest score on Kaggle comes out to be 0.87896 using Recurrent Neural Network LSTM out of different algorithms and various pre-processing techniques.
 
 ## How to work with the code
 
@@ -77,6 +78,11 @@ We also trained the model on LSTM and GRU Recurrent Neural Network, using differ
   
   6) Now, to predict your own review, run 'Predict Class For IMDb Movie Review.py'.
   7) It will ask for which model to use, which methods of preprocessing to use, and then it will predict the sentiment of the review.
+    
+## Output
+
+It will create a CSV file of predicted data for Kaggle submission, containing two columns: id, and sentiment.
+id will be the column "id" from testdata, and sentiment will be the predicted value from the model.
   
 To know more about Recurrent Neural Network, check [this](https://www.coursera.org/learn/nlp-sequence-models) course.
 
